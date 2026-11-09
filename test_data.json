@@ -1,0 +1,17 @@
+{
+  "A": {
+    "requires_dist": ["B", "C"]
+  },
+  "B": {
+    "requires_dist": ["D"]
+  },
+  "C": {
+    "requires_dist": ["D", "E"]
+  },
+  "D": {
+    "requires_dist": []
+  },
+  "E": {
+    "requires_dist": []
+  }
+}
